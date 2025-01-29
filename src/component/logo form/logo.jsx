@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./from.css";
 
-const Form = () => {
+const For = () => {
   const [userDetails,setUserDetails]=useState({name:'',lastName:'',email:'',password:'',confirmpassword:''})
   
   console.log(userDetails,'userDetails');
@@ -152,4 +152,4 @@ const Form = () => {
   );
 }
 
-export default Form;
+export default Fo;
